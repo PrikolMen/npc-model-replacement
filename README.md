@@ -29,5 +29,8 @@ list.Set( "NPCModelReplacement", "original/model/path", {
 # Customization from JSON in SERVER data
 Supports all the same things as Lua customization but in JSON format, more info at wiki.facepunch.com/gmod
 ```json
-["path/to/model"] = "path/to/other/model"
+{
+	"models/monk.mdl": "models/alyx.mdl",
+	"path/to/model2": "path/to/other/model2"
+}
 ```
